@@ -1,0 +1,30 @@
+version: ccfx 10.2.7
+format: pair_diploid
+option: -b 50
+option: -s 2
+option: -u +
+option: -t 12
+option: -w f+g+w+
+option: -j +
+option: -k 60m
+option: -preprocessed_file_postfix .java.2_0_0_0.default.ccfxprep
+option: -pp +
+option: -n C:\pleiades-e4.5-java-jre_20151002\pleiades\runtime-Eclipseアプリケーション\test
+preprocess_script: java
+source_files {
+1	C:\pleiades-e4.5-java-jre_20151002\pleiades\runtime-Eclipseアプリケーション\test\src\test\temp.java	968
+}
+source_file_remarks {
+}
+clone_pairs {
+1	1.4-296	1.296-588
+1	1.296-588	1.4-296
+4	1.595-696	1.712-813
+4	1.595-696	1.842-943
+4	1.712-813	1.595-696
+4	1.712-813	1.842-943
+4	1.842-943	1.595-696
+4	1.842-943	1.712-813
+}
+clone_set_remarks {
+}

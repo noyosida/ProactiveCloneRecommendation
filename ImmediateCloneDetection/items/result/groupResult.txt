@@ -1,0 +1,56 @@
+version: ccfx 10.2.7
+format: pair_diploid
+option: -b 50
+option: -s 2
+option: -u +
+option: -t 12
+option: -w f-g+w-
+option: -j +
+option: -k 60m
+option: -ig 1
+option: -ig 2-4
+option: -preprocessed_file_postfix .java.2_0_0_0.default.ccfxprep
+option: -pp +
+option: -n C:\pleiades-e4.5-java-jre_20151002\pleiades\runtime-Eclipseアプリケーション\test
+option: -n C:\pleiades-e4.5-java-jre_20151002\pleiades\runtime-Eclipseアプリケーション\test
+preprocess_script: java
+source_files {
+1	C:\pleiades-e4.5-java-jre_20151002\pleiades\runtime-Eclipseアプリケーション\test\src\test\temp.java	968
+2	C:\pleiades-e4.5-java-jre_20151002\pleiades\runtime-Eclipseアプリケーション\test\src\test\Main.java	50
+3	C:\pleiades-e4.5-java-jre_20151002\pleiades\runtime-Eclipseアプリケーション\test\src\test\temp2.java	404
+4	C:\pleiades-e4.5-java-jre_20151002\pleiades\runtime-Eclipseアプリケーション\test\src\test\temp3.java	289
+}
+source_file_remarks {
+}
+clone_pairs {
+7	1.595-696	3.148-249
+7	1.595-696	3.278-379
+23	1.595-703	3.20-128
+10	1.705-835	3.271-401
+13	1.705-965	3.141-401
+22	1.712-813	3.20-121
+12	1.835-965	3.141-271
+22	1.842-943	3.20-121
+23	1.595-703	4.20-128
+23	1.595-703	4.161-269
+22	1.712-813	4.20-121
+22	1.712-813	4.161-262
+22	1.842-943	4.20-121
+22	1.842-943	4.161-262
+22	3.20-121	1.712-813
+22	3.20-121	1.842-943
+23	3.20-128	1.595-703
+12	3.141-271	1.835-965
+13	3.141-401	1.705-965
+7	3.148-249	1.595-696
+10	3.271-401	1.705-835
+7	3.278-379	1.595-696
+22	4.20-121	1.712-813
+22	4.20-121	1.842-943
+23	4.20-128	1.595-703
+22	4.161-262	1.712-813
+22	4.161-262	1.842-943
+23	4.161-269	1.595-703
+}
+clone_set_remarks {
+}
